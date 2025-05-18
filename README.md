@@ -1,4 +1,3 @@
-```markdown
 # Go Todo CLI App
 
 A simple command-line TODO application written in Go. This application allows users to manage their task list using various command-line flags. Tasks are stored in a local JSON file, making the application lightweight and persistent between sessions.
@@ -13,6 +12,7 @@ A simple command-line TODO application written in Go. This application allows us
 -   💾 Persistent storage using a JSON file
 
 ## File Structure
+
 ```
 
 .
@@ -21,19 +21,19 @@ A simple command-line TODO application written in Go. This application allows us
 ├── command.go # Handles command-line argument parsing
 ├── todo.go # Defines todo data structures and logic
 
-````
+```
 
 ## Getting Started
 
 ### Prerequisites
 
-- Go 1.18 or higher
+-   Go 1.18 or higher
 
 ### Build
 
 ```bash
 go build -o todoapp
-````
+```
 
 ### Usage
 
